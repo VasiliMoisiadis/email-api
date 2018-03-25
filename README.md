@@ -4,9 +4,13 @@ This Email API allows you to send plain-text only emails to clients via supporte
 
 Supports sending to multiple email recipients, CCs, BCCs.
 
-**Supported Providers:**
+#### Supported Providers:
 * [Mailgun](https://www.mailgun.com/)
 * [Sendgrid](https://sendgrid.com/)
+
+#### Provider Notes:
+* Emails sent via Sendgrid (Primary) will usually go to Spam / Junk folder, as you are spoofing another email in the email's `from` attribute. 
+* Emails sent via Mailgun (Secondary) will not go to Spam / Junk folder, but will ignore the `from`'s email address and use the one provided by Mailgun.
 
 
 ## Requirements
