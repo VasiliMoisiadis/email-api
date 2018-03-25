@@ -1,5 +1,5 @@
-## Custom Gitignore ##
-
+## Coverage Testing ##
+coverage
 
 
 ## Covers Ruby ##
@@ -13,8 +13,8 @@
 /pkg/
 /spec/reports/
 /spec/examples.txt
-/test/tmp/
-/test/version_tmp/
+/tests/tmp/
+/tests/version_tmp/
 /tmp/
 
 # Used by dotenv library to load environment variables.

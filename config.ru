@@ -1,4 +1,4 @@
-require File.absolute_path('lib/backend')
 require 'dotenv/load'
+require File.absolute_path('lib/email_api')
 
-run Backend
+run EmailApi
