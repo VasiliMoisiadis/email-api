@@ -1,6 +1,6 @@
 # Email API
 
-This Email API allows you to send plain-text only emails to clients through supported email service providers.
+This Email API allows you to send plain-text only emails to clients via supported email service providers through HTTP-only requests.
 
 Supports sending to multiple email recipients, CCs, BCCs.
 
@@ -159,7 +159,7 @@ For more manual installation:
 
 ### Starting environment
 
-The provided web service at [Moisiadis.com](http://email-api.moisiadis.com) uses Puma, and it is the primary supported web server.
+The provided web service at [Moisiadis.com](http://email-api.moisiadis.com) uses [Puma](https://github.com/puma/puma), and it is the primary supported web server.
 
 Start using:
 ```
